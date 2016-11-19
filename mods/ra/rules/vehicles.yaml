@@ -556,7 +556,7 @@ MGG:
 MRJ:
 	Inherits: ^Vehicle
 	Valued:
-		Cost: 800
+		Cost: 950
 	Tooltip:
 		Name: Mobile Radar Jammer
 	Buildable:
@@ -576,13 +576,13 @@ MRJ:
 		Sequence: spinner
 		Offset: -256,0,256
 	JamsRadar:
-		Range: 15c0
+		Range: 18c0
 	JamsMissiles:
-		Range: 4c0
+		Range: 5c0
 		DeflectionStances: Neutral, Enemy
 	RenderJammerCircle:
 	DetectCloaked:
-		Range: 6c0
+		Range: 8c0
 
 TTNK:
 	Inherits: ^Tank
@@ -743,11 +743,11 @@ QTNK:
 		Prerequisites: fix, stek, ~vehicles.soviet, ~techlevel.high
 		Description: Deals seismic damage to nearby vehicles\nand structures.\n  Strong vs Vehicles, Buildings\n  Weak vs Infantry, Aircraft
 	Valued:
-		Cost: 2000
+		Cost: 2200
 	Tooltip:
 		Name: MAD Tank
 	Health:
-		HP: 900
+		HP: 700
 	Armor:
 		Type: Heavy
 	Mobile:

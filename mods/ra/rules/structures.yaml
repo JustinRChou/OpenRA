@@ -551,7 +551,7 @@ PBOX:
 		Prerequisites: tent, ~structures.allies, ~techlevel.low
 		Description: Static defense with a fireport for a\ngarrisoned soldier.\nCan detect cloaked units.\n  Strong vs Infantry, Light armor\n  Weak vs Tanks, Aircraft
 	Valued:
-		Cost: 400
+		Cost: 600
 	Health:
 		HP: 400
 	Armor:
@@ -599,7 +599,7 @@ HBOX:
 		Prerequisites: tent, ~structures.allies, ~techlevel.medium
 		Description: Camouflaged static defense with a fireport\nfor a garrisoned soldier.\nCan detect cloaked units.\n  Strong vs Infantry, Light armor\n  Weak vs Tanks, Aircraft
 	Valued:
-		Cost: 600
+		Cost: 800
 	Health:
 		HP: 450
 	Armor:
@@ -647,7 +647,7 @@ GUN:
 		Prerequisites: tent, ~structures.allies, ~techlevel.medium
 		Description: Anti-Armor base defense.\nCan detect cloaked units.\n  Strong vs Vehicles\n  Weak vs Infantry, Aircraft
 	Valued:
-		Cost: 600
+		Cost: 800
 	Tooltip:
 		Name: Turret
 	Building:
@@ -784,7 +784,7 @@ ATEK:
 		Footprint: xx xx
 		Dimensions: 2,2
 	Health:
-		HP: 400
+		HP: 600
 	Armor:
 		Type: Wood
 	RevealsShroud:
@@ -1230,7 +1230,7 @@ AFLD:
 		ChargeTime: 360
 		Description: Paratroopers
 		LongDesc: A Badger drops a squad of infantry\nanywhere on the map.
-		DropItems: E1,E1,E1,E3,E3
+		DropItems: E1R1,E1R1,E1R1,E3R1,E3R1
 		SelectTargetSpeechNotification: SelectTarget
 		AllowImpassableCells: false
 		QuantizedFacings: 8

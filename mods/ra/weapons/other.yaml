@@ -5,7 +5,7 @@ FireballLauncher:
 	Burst: 2
 	BurstDelay: 20
 	Projectile: Bullet
-		Speed: 204
+		Speed: 250
 		TrailImage: fb2
 		Image: FB1
 	Warhead@1Dam: SpreadDamage
@@ -268,21 +268,39 @@ Mandible:
 		DamageTypes: Prone50Percent, TriggerProne, DefaultDeath
 
 MADTankThump:
-	InvalidTargets: MADTank, Infantry
+	InvalidTargets: MADTank
 	Warhead@1Dam: HealthPercentageDamage
-		Spread: 7c0
+		Spread: 22c0
 		Damage: 1
-		InvalidTargets: MADTank, Infantry
+		Versus:
+			None: 200
+			Wood: 75
+			Light: 75
+			Heavy: 50
+		InvalidTargets: MADTank
+		DamageTypes: Prone50Percent, TriggerProne, DefaultDeath
+	Warhead@2Dam: HealthPercentageDamage
+		Spread: 12c0
+		Damage: 1
+		Versus:
+			None: 200
+			Wood: 50
+			Light: 50
+			Heavy: 35
+		InvalidTargets: MADTank
+		DamageTypes: Prone50Percent, TriggerProne, DefaultDeath
 
 MADTankDetonate:
 	InvalidTargets: MADTank, Infantry
 	Warhead@1Dam: HealthPercentageDamage
-		Spread: 7c0
-		Damage: 19
+		Spread: 8c0
+		Damage: 5
+		Versus:
+			Concrete: 1000
 		InvalidTargets: MADTank, Infantry
+		DamageTypes: Prone50Percent, TriggerProne, DefaultDeath
 	Warhead@2Smu: LeaveSmudge
-		SmudgeType: Crater
-		Size: 7,6
+		Size: 13,11
 	Warhead@3Eff: CreateEffect
 		Explosions: med_explosion
 		ImpactSounds: mineblo1.aud

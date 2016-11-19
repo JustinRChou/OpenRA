@@ -8,6 +8,7 @@ Player:
 		ReadyAudio: ConstructionComplete
 		SpeedUp: True
 	ClassicProductionQueue@Defense:
+		BuildTimeSpeedReduction: 100, 93, 88, 83, 80, 77, 75
 		Type: Defense
 		LowPowerSlowdown: 3
 		QueuedAudio: Building
