@@ -151,6 +151,7 @@ TurretGun:
 		Inaccuracy: 1c682
 		Image: 120MM
 		ContrailLength: 30
+		Shadow: True
 	Warhead@1Dam: SpreadDamage
 		Spread: 426
 		Damage: 220
@@ -185,6 +186,7 @@ TurretGun:
 		Inaccuracy: 2c938
 		Image: 120MM
 		ContrailLength: 30
+		Shadow: True
 	Warhead@1Dam: SpreadDamage
 		Spread: 213
 		Damage: 25
@@ -214,6 +216,7 @@ TurretGun:
 	Projectile: Bullet
 		Speed: 426
 		Image: 120MM
+		Shadow: True
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 25
