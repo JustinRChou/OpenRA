@@ -17,6 +17,9 @@ V2RL:
 		Speed: 85
 	RevealsShroud:
 		Range: 5c0
+		RevealsGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Armament:
 		Weapon: SCUD
 	AttackFrontal:
@@ -51,6 +54,9 @@ V2RL:
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 5c0
+		RevealsGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Turreted:
 		TurnSpeed: 7
 	Armament:
@@ -88,6 +94,9 @@ V2RL:
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 5c0
+		RevealsGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Turreted:
 		TurnSpeed: 5
 	Armament:
@@ -127,6 +136,9 @@ V2RL:
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 5c0
+		RevealsGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Turreted:
 		TurnSpeed: 5
 	Armament:
@@ -168,6 +180,9 @@ V2RL:
 		Crushes: wall, mine, crate, infantry, heavywall
 	RevealsShroud:
 		Range: 6c0
+		RevealsGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Turreted:
 		TurnSpeed: 2
 	Armament@PRIMARY:
@@ -219,6 +234,9 @@ ARTY:
 		Speed: 85
 	RevealsShroud:
 		Range: 5c0
+		RevealsGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Armament:
 		Weapon: 155mm
 		LocalOffset: 624,0,208
@@ -342,6 +360,9 @@ JEEP:
 		UpgradeMaxEnabledLevel: 0
 	RevealsShroud:
 		Range: 8c0
+		RevealsGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Turreted:
 		TurnSpeed: 10
 		Offset: 0,0,85
@@ -382,6 +403,9 @@ APC:
 		UpgradeMaxEnabledLevel: 0
 	RevealsShroud:
 		Range: 5c0
+		RevealsGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Armament:
 		Weapon: M60mg
 		LocalOffset: 0,0,171
@@ -417,6 +441,9 @@ MNLY.AP:
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 5c0
+		RevealsGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Minelayer:
 		Mine: MINP
 	MineImmune:
@@ -452,6 +479,9 @@ MNLY.AT:
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 5c0
+		RevealsGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Minelayer:
 		Mine: MINV
 	MineImmune:
@@ -514,6 +544,9 @@ MGG:
 		Sequence: spinner
 	RevealsShroud:
 		Range: 6c0
+		RevealsGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	CreatesShroud:
 		Range: 6c0
 	RenderShroudCircle:
@@ -538,7 +571,7 @@ MRJ:
 	Mobile:
 		Speed: 85
 	RevealsShroud:
-		Range: 6c0
+		Range: 7c0
 	WithIdleOverlay@SPINNER:
 		Sequence: spinner
 		Offset: -256,0,256
@@ -571,6 +604,9 @@ TTNK:
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 7c0
+		RevealsGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 6c0
 	Armament:
 		Weapon: TTankZap
 		LocalOffset: 0,0,213
@@ -604,6 +640,9 @@ FTRK:
 		Speed: 128
 	RevealsShroud:
 		Range: 6c0
+		RevealsGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Turreted:
 		TurnSpeed: 10
 		Offset: -298,0,298
@@ -678,6 +717,9 @@ CTNK:
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 6c0
+		RevealsGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	AutoTarget:
 	Armament@PRIMARY:
 		Weapon: APTusk
@@ -713,6 +755,9 @@ QTNK:
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 6c0
+		RevealsGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	SelectionDecorations:
 		VisualBounds: 44,38,0,-4
 	MadTank:
@@ -742,6 +787,9 @@ STNK:
 		UpgradeMaxEnabledLevel: 0
 	RevealsShroud:
 		Range: 7c0
+		RevealsGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	AutoTarget:
 		InitialStance: HoldFire
 		InitialStanceAI: ReturnFire
