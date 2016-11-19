@@ -461,6 +461,7 @@ APTusk:
 		Image: DRAGON
 		HorizontalRateOfTurn: 10
 		RangeLimit: 7c204
+		Shadow: True
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 30
