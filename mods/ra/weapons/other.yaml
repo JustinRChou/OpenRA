@@ -96,6 +96,7 @@ Grenade:
 		LaunchAngle: 62
 		Inaccuracy: 554
 		Image: BOMB
+		Shadow: True
 	Warhead@1Dam: SpreadDamage
 		Spread: 256
 		Damage: 60
@@ -128,6 +129,7 @@ DepthCharge:
 		LaunchAngle: 62
 		Blockable: false
 		Inaccuracy: 128
+		Shadow: True
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 80
