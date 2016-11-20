@@ -248,9 +248,9 @@ LST:
 		Speed: 113
 		TerrainSpeeds:
 			Beach: 70
-	RevealShroud:
+	RevealsShroud:
 		Range: 6c0
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 5c0
 	SelectionDecorations:
