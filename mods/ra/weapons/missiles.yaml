@@ -256,6 +256,7 @@ SubMissile:
 		Image: MISSILE
 		TrailImage: smokey
 		ContrailLength: 30
+		Shadow: True
 	Warhead@1Dam: SpreadDamage
 		Spread: 426
 		Damage: 25
@@ -286,6 +287,7 @@ SubMissileAA:
 		Inaccuracy: 0c614
 		HorizontalRateOfTurn: 15
 		RangeLimit: 9c0
+		Shadow: True
 	Warhead@1Dam: SpreadDamage
 		Damage: 15
 		ValidTargets: Air, Ground, Water
@@ -306,6 +308,7 @@ Stinger:
 		RangeLimit: 9c0
 		Speed: 170
 		CloseEnough: 149
+		Shadow: True
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 30
@@ -347,6 +350,7 @@ StingerAA:
 		HorizontalRateOfTurn: 20
 		RangeLimit: 9c0
 		Speed: 255
+		Shadow: True
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 30
