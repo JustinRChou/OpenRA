@@ -79,7 +79,7 @@ GAP:
 		HasMinibib: Yes
 	CreatesShroud:
 		Range: 6c0
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 5c0
 	RenderShroudCircle:
@@ -306,7 +306,7 @@ IRON:
 		Type: Wood
 	RevealsShroud:
 		Range: 10c0
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 5c0
 	Bib:
@@ -355,9 +355,6 @@ PDOX:
 		Type: Wood
 	RevealsShroud:
 		Range: 10c0
-		RevealsGeneratedShroud: False
-	RevealsShroud@GAPGEN:
-		Range: 5c0
 	Bib:
 		HasMinibib: Yes
 	ProvidesPrerequisite@germany:
@@ -429,7 +426,7 @@ TSLA:
 		Type: Heavy
 	RevealsShroud:
 		Range: 8c0
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 7c0
 	Bib:
@@ -476,7 +473,7 @@ AGUN:
 		Type: Heavy
 	RevealsShroud:
 		Range: 6c0
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 5c0
 	Bib:
@@ -558,7 +555,7 @@ PBOX:
 		Type: Heavy
 	RevealsShroud:
 		Range: 6c0
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 5c0
 	Bib:
@@ -606,7 +603,7 @@ HBOX:
 		Type: Heavy
 	RevealsShroud:
 		Range: 6c0
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 5c0
 	Cloak:
@@ -657,7 +654,7 @@ GUN:
 		Type: Heavy
 	RevealsShroud:
 		Range: 7c0
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 5c0
 	Bib:
@@ -700,7 +697,7 @@ FTUR:
 		Type: Heavy
 	RevealsShroud:
 		Range: 6c0
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 5c0
 	Bib:
@@ -789,7 +786,7 @@ ATEK:
 		Type: Wood
 	RevealsShroud:
 		Range: 10c0
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 5c0
 	Bib:
@@ -1012,7 +1009,7 @@ PROC:
 		Type: Wood
 	RevealsShroud:
 		Range: 6c0
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 5c0
 	Bib:
@@ -1173,7 +1170,7 @@ AFLD:
 		Type: Wood
 	RevealsShroud:
 		Range: 7c0
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 5c0
 	Exit@1:

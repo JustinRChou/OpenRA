@@ -100,7 +100,7 @@ MIG:
 	RevealsShroud:
 		Range: 13c0
 		Type: CenterPosition
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 11c0
 	Armament:
@@ -158,7 +158,7 @@ YAK:
 	RevealsShroud:
 		Range: 11c0
 		Type: CenterPosition
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 9c0
 	Armament@PRIMARY:
@@ -220,7 +220,7 @@ TRAN:
 	RevealsShroud:
 		Range: 10c0
 		Type: CenterPosition
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 8c0
 	Aircraft:
@@ -277,7 +277,7 @@ HELI:
 	RevealsShroud:
 		Range: 12c0
 		Type: CenterPosition
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 10c0
 	Armament@PRIMARY:
@@ -336,7 +336,7 @@ HIND:
 	RevealsShroud:
 		Range: 10c0
 		Type: CenterPosition
-		RevealsGeneratedShroud: False
+		RevealGeneratedShroud: False
 	RevealsShroud@GAPGEN:
 		Range: 8c0
 	Armament@PRIMARY:
