@@ -16,6 +16,7 @@ Maverick:
 		HorizontalRateOfTurn: 5
 		CruiseAltitude: 2c0
 		RangeLimit: 14c410
+		Shadow: True
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 70
@@ -53,6 +54,7 @@ Dragon:
 		Image: DRAGON
 		HorizontalRateOfTurn: 5
 		RangeLimit: 6c0
+		Shadow: True
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 50
@@ -92,6 +94,7 @@ HellfireAG:
 		Image: DRAGON
 		HorizontalRateOfTurn: 10
 		RangeLimit: 8c512
+		Shadow: True
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 60
@@ -130,6 +133,7 @@ HellfireAA:
 		Image: DRAGON
 		HorizontalRateOfTurn: 10
 		RangeLimit: 7c0
+		Shadow: True
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
 		Damage: 40
