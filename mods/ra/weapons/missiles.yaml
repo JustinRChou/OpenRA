@@ -13,6 +13,7 @@ Maverick:
 		ContrailLength: 10
 		Inaccuracy: 512
 		Image: DRAGON
+		Shadow: True		
 		HorizontalRateOfTurn: 5
 		CruiseAltitude: 2c0
 		RangeLimit: 14c410
@@ -51,6 +52,7 @@ Dragon:
 		ContrailLength: 10
 		Inaccuracy: 128
 		Image: DRAGON
+		Shadow: True		
 		HorizontalRateOfTurn: 5
 		RangeLimit: 6c0
 	Warhead@1Dam: SpreadDamage
@@ -90,6 +92,7 @@ HellfireAG:
 		ContrailLength: 10
 		Inaccuracy: 128
 		Image: DRAGON
+		Shadow: True		
 		HorizontalRateOfTurn: 10
 		RangeLimit: 8c512
 	Warhead@1Dam: SpreadDamage
@@ -128,6 +131,7 @@ HellfireAA:
 		ContrailLength: 10
 		Inaccuracy: 128
 		Image: DRAGON
+		Shadow: True		
 		HorizontalRateOfTurn: 10
 		RangeLimit: 7c0
 	Warhead@1Dam: SpreadDamage
@@ -162,6 +166,7 @@ MammothTusk:
 		ContrailLength: 10
 		Inaccuracy: 128
 		Image: DRAGON
+		Shadow: True		
 		HorizontalRateOfTurn: 15
 		RangeLimit: 9c614
 	Warhead@1Dam: SpreadDamage
@@ -200,6 +205,7 @@ Nike:
 		Blockable: false
 		ContrailLength: 10
 		Image: MISSILE
+		Shadow: True		
 		HorizontalRateOfTurn: 25
 		RangeLimit: 9c0
 		Speed: 341
@@ -226,6 +232,7 @@ RedEye:
 		Blockable: false
 		ContrailLength: 10
 		Image: MISSILE
+		Shadow: True		
 		HorizontalRateOfTurn: 20
 		RangeLimit: 9c0
 		Speed: 298
@@ -254,6 +261,7 @@ SubMissile:
 		LaunchAngle: 120
 		Inaccuracy: 2c938
 		Image: MISSILE
+		Shadow: True		
 		TrailImage: smokey
 		ContrailLength: 30
 	Warhead@1Dam: SpreadDamage
@@ -286,13 +294,14 @@ SubMissileAA:
 		Inaccuracy: 0c614
 		HorizontalRateOfTurn: 15
 		RangeLimit: 9c0
+		Shadow: True		
 	Warhead@1Dam: SpreadDamage
 		Damage: 15
 		ValidTargets: Air, Ground, Water
 
 Stinger:
 	ReloadDelay: 60
-	Range: 9c0
+	Range: 7c512
 	Report: missile6.aud
 	Burst: 2
 	BurstDelay: 0
@@ -302,8 +311,9 @@ Stinger:
 		Blockable: false
 		ContrailLength: 10
 		Image: DRAGON
+		Shadow: True		
 		HorizontalRateOfTurn: 20
-		RangeLimit: 10c819
+		RangeLimit: 9c0
 		Speed: 170
 		CloseEnough: 149
 	Warhead@1Dam: SpreadDamage
@@ -334,7 +344,7 @@ Stinger:
 
 StingerAA:
 	ReloadDelay: 60
-	Range: 9c0
+	Range: 7c512
 	Report: missile6.aud
 	Burst: 2
 	BurstDelay: 0
@@ -344,8 +354,9 @@ StingerAA:
 		Blockable: false
 		ContrailLength: 10
 		Image: DRAGON
+		Shadow: True		
 		HorizontalRateOfTurn: 20
-		RangeLimit: 10c819
+		RangeLimit: 9c0
 		Speed: 255
 	Warhead@1Dam: SpreadDamage
 		Spread: 128
@@ -417,7 +428,7 @@ SCUD:
 	Projectile: Bullet
 		Speed: 170
 		Blockable: false
-		Shadow: false
+		Shadow: true
 		TrailImage: smokey
 		TrailDelay: 5
 		Inaccuracy: 213
@@ -459,6 +470,7 @@ APTusk:
 		ContrailLength: 10
 		Inaccuracy: 128
 		Image: DRAGON
+		Shadow: True		
 		HorizontalRateOfTurn: 10
 		RangeLimit: 7c204
 	Warhead@1Dam: SpreadDamage
