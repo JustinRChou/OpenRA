@@ -744,6 +744,8 @@ QTNK:
 		Queue: Vehicle
 		BuildPaletteOrder: 200
 		Prerequisites: fix, stek, ~vehicles.soviet, ~techlevel.high
+		BuildDuration: 2875
+		BuildDurationModifier: 40		
 		Description: Deals seismic damage to nearby vehicles\nand structures.\n  Strong vs Vehicles, Buildings\n  Weak vs Infantry, Aircraft
 	Valued:
 		Cost: 2200
