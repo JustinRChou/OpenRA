@@ -320,7 +320,7 @@ MCV:
 	Armor:
 		Type: Light
 	Mobile:
-		Speed: 85
+		Speed: 56
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 4c0
