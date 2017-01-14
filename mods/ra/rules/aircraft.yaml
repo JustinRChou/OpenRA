@@ -86,6 +86,8 @@ MIG:
 		BuildAtProductionType: Plane
 		BuildPaletteOrder: 50
 		Prerequisites: ~afld, stek, ~techlevel.high
+		BuildDuration: 2625
+		BuildDurationModifier: 40
 		Description: Fast Ground-Attack Plane.\n  Strong vs Buildings, Tanks\n  Weak vs Infantry, Light armor, Aircraft
 	Valued:
 		Cost: 2000
@@ -96,7 +98,11 @@ MIG:
 	Armor:
 		Type: Light
 	RevealsShroud:
-		Range: 12c0
+		Range: 13c0
+		Type: GroundPosition
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 11c0
 		Type: GroundPosition
 	Armament:
 		Weapon: Maverick
@@ -151,7 +157,11 @@ YAK:
 	Armor:
 		Type: Light
 	RevealsShroud:
-		Range: 10c0
+		Range: 11c0
+		Type: GroundPosition
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 9c0
 		Type: GroundPosition
 	Armament@PRIMARY:
 		Weapon: ChainGun.Yak
@@ -212,6 +222,10 @@ TRAN:
 	RevealsShroud:
 		Range: 10c0
 		Type: GroundPosition
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 8c0
+		Type: GroundPosition
 	Aircraft:
 		InitialFacing: 224
 		TurnSpeed: 5
@@ -250,6 +264,8 @@ HELI:
 		BuildAtProductionType: Helicopter
 		BuildPaletteOrder: 40
 		Prerequisites: ~hpad, atek, ~techlevel.high
+		BuildDuration: 2625
+		BuildDurationModifier: 40
 		Description: Helicopter gunship armed\nwith multi-purpose missiles.\n  Strong vs Tanks, Aircraft\n  Weak vs Infantry
 	Valued:
 		Cost: 2000
@@ -261,6 +277,10 @@ HELI:
 		Type: Light
 	RevealsShroud:
 		Range: 12c0
+		Type: GroundPosition
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 10c0
 		Type: GroundPosition
 	Armament@PRIMARY:
 		Weapon: HellfireAA
@@ -315,6 +335,10 @@ HIND:
 		Type: Light
 	RevealsShroud:
 		Range: 10c0
+		Type: GroundPosition
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 8c0
 		Type: GroundPosition
 	Armament@PRIMARY:
 		Weapon: ChainGun

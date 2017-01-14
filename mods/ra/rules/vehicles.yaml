@@ -17,6 +17,9 @@ V2RL:
 		Speed: 85
 	RevealsShroud:
 		Range: 5c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Armament:
 		Weapon: SCUD
 	AttackFrontal:
@@ -51,6 +54,9 @@ V2RL:
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 5c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Turreted:
 		TurnSpeed: 7
 	Armament:
@@ -88,6 +94,9 @@ V2RL:
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 5c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Turreted:
 		TurnSpeed: 5
 	Armament:
@@ -127,6 +136,9 @@ V2RL:
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 5c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Turreted:
 		TurnSpeed: 5
 	Armament:
@@ -152,7 +164,7 @@ V2RL:
 		Queue: Vehicle
 		BuildPaletteOrder: 190
 		Prerequisites: fix, stek, ~vehicles.soviet, ~techlevel.high
-		BuildDuration: 2500
+		BuildDuration: 2250
 		BuildDurationModifier: 40
 		Description: Big and slow tank, with anti-air capability.\n  Strong vs Vehicles, Infantry, Aircraft\n  Weak vs Nothing
 	Valued:
@@ -168,6 +180,9 @@ V2RL:
 		Crushes: wall, mine, crate, infantry, heavywall
 	RevealsShroud:
 		Range: 6c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Turreted:
 		TurnSpeed: 2
 	Armament@PRIMARY:
@@ -219,6 +234,7 @@ ARTY:
 		Speed: 85
 	RevealsShroud:
 		Range: 5c0
+
 	Armament:
 		Weapon: 155mm
 		LocalOffset: 624,0,208
@@ -288,7 +304,7 @@ MCV:
 		Queue: Vehicle
 		BuildPaletteOrder: 90
 		Prerequisites: fix, ~techlevel.medium
-		BuildDuration: 2000
+		BuildDuration: 2500
 		BuildDurationModifier: 40
 		Description: Deploys into another Construction Yard.\n  Unarmed
 	Valued:
@@ -341,6 +357,9 @@ JEEP:
 		RequiresCondition: !notmobile
 	RevealsShroud:
 		Range: 8c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Turreted:
 		TurnSpeed: 10
 		Offset: 0,0,85
@@ -380,6 +399,9 @@ APC:
 		RequiresCondition: !notmobile
 	RevealsShroud:
 		Range: 5c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Armament:
 		Weapon: M60mg
 		LocalOffset: 0,0,171
@@ -415,6 +437,9 @@ MNLY.AP:
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 5c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Minelayer:
 		Mine: MINP
 	MineImmune:
@@ -450,6 +475,9 @@ MNLY.AT:
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 5c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Minelayer:
 		Mine: MINV
 	MineImmune:
@@ -496,6 +524,8 @@ MGG:
 		Queue: Vehicle
 		BuildPaletteOrder: 160
 		Prerequisites: atek, ~vehicles.france, ~techlevel.high
+		BuildDuration: 1500
+		BuildDurationModifier: 40
 		Description: Regenerates the shroud nearby, \nobscuring the area.\n  Unarmed
 	Valued:
 		Cost: 1200
@@ -512,6 +542,9 @@ MGG:
 		Sequence: spinner
 	RevealsShroud:
 		Range: 6c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	CreatesShroud:
 		Range: 6c0
 	RenderShroudCircle:
@@ -521,13 +554,15 @@ MGG:
 MRJ:
 	Inherits: ^Vehicle
 	Valued:
-		Cost: 800
+		Cost: 1100
 	Tooltip:
 		Name: Mobile Radar Jammer
 	Buildable:
 		Queue: Vehicle
 		BuildPaletteOrder: 150
 		Prerequisites: atek, ~vehicles.allies, ~techlevel.high
+		BuildDuration: 1370
+		BuildDurationModifier: 40
 		Description: Jams nearby enemy radar domes\nand deflects incoming missiles.\nCan detect cloaked units.\n  Unarmed
 	Health:
 		HP: 220
@@ -541,13 +576,13 @@ MRJ:
 		Sequence: spinner
 		Offset: -256,0,256
 	JamsRadar:
-		Range: 15c0
+		Range: 18c0
 	JamsMissiles:
-		Range: 4c0
+		Range: 5c0
 		DeflectionStances: Neutral, Enemy
 	RenderJammerCircle:
 	DetectCloaked:
-		Range: 6c0
+		Range: 8c0
 
 TTNK:
 	Inherits: ^Tank
@@ -555,6 +590,8 @@ TTNK:
 		Queue: Vehicle
 		BuildPaletteOrder: 180
 		Prerequisites: tsla, stek, ~vehicles.russia, ~techlevel.high
+		BuildDuration: 1750
+		BuildDurationModifier: 40
 		Description: Tank with mounted tesla coil.\n  Strong vs Infantry, Vehicles, Buildings\n  Weak vs Aircraft
 	Valued:
 		Cost: 1350
@@ -569,6 +606,9 @@ TTNK:
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 7c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 6c0
 	Armament:
 		Weapon: TTankZap
 		LocalOffset: 0,0,213
@@ -602,6 +642,9 @@ FTRK:
 		Speed: 128
 	RevealsShroud:
 		Range: 6c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Turreted:
 		TurnSpeed: 10
 		Offset: -298,0,298
@@ -659,6 +702,8 @@ CTNK:
 		Queue: Vehicle
 		BuildPaletteOrder: 210
 		Prerequisites: atek, ~vehicles.germany, ~techlevel.high
+		BuildDuration: 1750
+		BuildDurationModifier: 40
 		Description: Chrono Tank, teleports to areas within range.\n  Strong vs Vehicles, Buildings\n  Weak vs Infantry, Aircraft\n  Special ability: Can teleport
 	Valued:
 		Cost: 1350
@@ -675,6 +720,9 @@ CTNK:
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 6c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	AutoTarget:
 	Armament@PRIMARY:
 		Weapon: APTusk
@@ -696,13 +744,15 @@ QTNK:
 		Queue: Vehicle
 		BuildPaletteOrder: 200
 		Prerequisites: fix, stek, ~vehicles.soviet, ~techlevel.high
+		BuildDuration: 2875
+		BuildDurationModifier: 40		
 		Description: Deals seismic damage to nearby vehicles\nand structures.\n  Strong vs Vehicles, Buildings\n  Weak vs Infantry, Aircraft
 	Valued:
-		Cost: 2000
+		Cost: 2200
 	Tooltip:
 		Name: MAD Tank
 	Health:
-		HP: 900
+		HP: 700
 	Armor:
 		Type: Heavy
 	Mobile:
@@ -710,9 +760,19 @@ QTNK:
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 6c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	SelectionDecorations:
 		VisualBounds: 44,38,0,-4
+	KillsSelf:
+		RequiresCondition: invulnerability
+		Explodes:
+			Weapon: MADTankDetonate
+			EmptyWeapon: MADTankDetonate
+	-Chronoshiftable
 	MadTank:
+		ChargeDelay: 192	
 	-EjectOnDeath:
 	Targetable:
 		TargetTypes: Ground, MADTank, Repair, Vehicle
@@ -723,6 +783,8 @@ STNK:
 		Queue: Vehicle
 		BuildPaletteOrder: 140
 		Prerequisites: atek, ~vehicles.england, ~techlevel.high
+		BuildDuration: 1750
+		BuildDurationModifier: 40
 		Description: Lightly armored infantry transport\nwhich can cloak. Can detect cloaked units.\n  Strong vs Light armor\n  Weak vs Infantry, Tanks, Aircraft
 	Valued:
 		Cost: 1350
@@ -738,6 +800,9 @@ STNK:
 		RequiresCondition: !notmobile
 	RevealsShroud:
 		Range: 7c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	AutoTarget:
 		InitialStance: HoldFire
 		InitialStanceAI: ReturnFire
