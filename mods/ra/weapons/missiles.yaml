@@ -345,7 +345,7 @@ Stinger:
 
 StingerAA:
 	ReloadDelay: 60
-	Range: 7c512
+	Range: 9c0
 	Report: missile6.aud
 	Burst: 2
 	BurstDelay: 0
@@ -357,7 +357,7 @@ StingerAA:
 		Image: DRAGON
 		Shadow: True		
 		HorizontalRateOfTurn: 20
-		RangeLimit: 9c0
+		RangeLimit: 10c819
 		Speed: 255
 	Warhead@1Dam: SpreadDamage
 		Spread: 128

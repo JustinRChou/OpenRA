@@ -767,9 +767,9 @@ QTNK:
 		VisualBounds: 44,38,0,-4
 	KillsSelf:
 		RequiresCondition: invulnerability
-		Explodes:
-			Weapon: MADTankDetonate
-			EmptyWeapon: MADTankDetonate
+	Explodes:
+		Weapon: MADTankDetonate
+		EmptyWeapon: MADTankDetonate
 	-Chronoshiftable
 	MadTank:
 		ChargeDelay: 192	

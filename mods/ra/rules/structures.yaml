@@ -1215,7 +1215,7 @@ AFLD:
 		OrderName: SovietSpyPlane
 		Prerequisites: aircraft.soviet
 		Icon: spyplane
-		ChargeTime: 120
+		ChargeTime: 150
 		Description: Spy Plane
 		LongDesc: Reveals an area of the map\nand cloaked enemy units.
 		SelectTargetSpeechNotification: SelectTarget
