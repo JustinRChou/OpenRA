@@ -1082,7 +1082,7 @@ HPAD:
 		Prerequisites: dome, ~structures.allies, ~techlevel.medium
 		Description: Produces and reloads\nhelicopters.
 	Valued:
-		Cost: 600
+		Cost: 500
 	Tooltip:
 		Name: Helipad
 	Building:
@@ -1164,7 +1164,7 @@ AFLD:
 		Prerequisites: dome, ~structures.soviet, ~techlevel.medium
 		Description: Produces and reloads aircraft.\n  Special Ability: Paratroopers\n  Special Ability: Spy Plane
 	Valued:
-		Cost: 600
+		Cost: 500
 	Tooltip:
 		Name: Airfield
 	Building:

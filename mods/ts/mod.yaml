@@ -1,11 +1,11 @@
 Metadata:
 	Title: Tiberian Sun
 	Description: Developer stub, not yet ready for release!
-	Version: Experimental v2.1
+	Version: Experimental v2.2
 	Author: the OpenRA Developers
 
 RequiresMods:
-	modchooser: Experimental v2.1
+	modchooser: Experimental v2.2
 
 Packages:
 	~^Content/ts
@@ -55,7 +55,7 @@ Packages:
 
 MapFolders:
 	ts|maps: System
-	~^maps/ts/Experimental v2.1: User
+	~^maps/ts/Experimental v2.2: User
 
 Rules:
 	ts|rules/ai.yaml

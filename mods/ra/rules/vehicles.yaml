@@ -269,8 +269,8 @@ HARV:
 		Capacity: 20
 		Resources: Ore,Gems
 		BaleUnloadDelay: 1
-		SearchFromProcRadius: 30
-		SearchFromOrderRadius: 15
+		SearchFromProcRadius: 20
+		SearchFromOrderRadius: 10
 	Health:
 		HP: 600
 	Armor:
@@ -320,7 +320,7 @@ MCV:
 	Armor:
 		Type: Light
 	Mobile:
-		Speed: 56
+		Speed: 71
 		Crushes: wall, mine, crate, infantry
 	RevealsShroud:
 		Range: 4c0
