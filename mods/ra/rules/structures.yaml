@@ -75,6 +75,9 @@ GAP:
 		Type: Wood
 	RevealsShroud:
 		Range: 6c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 5c0
 	Bib:
 		HasMinibib: Yes
 	CreatesShroud:
@@ -304,6 +307,9 @@ IRON:
 		Type: Wood
 	RevealsShroud:
 		Range: 10c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 5c0
 	Bib:
 		HasMinibib: Yes
 	GrantExternalConditionPower@IRONCURTAIN:
@@ -351,6 +357,9 @@ PDOX:
 		Type: Wood
 	RevealsShroud:
 		Range: 10c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 5c0
 	Bib:
 		HasMinibib: Yes
 	ProvidesPrerequisite@germany:
@@ -422,6 +431,9 @@ TSLA:
 		Type: Heavy
 	RevealsShroud:
 		Range: 8c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 6c0
 	Bib:
 		HasMinibib: Yes
 	WithChargeAnimation:
@@ -464,6 +476,9 @@ AGUN:
 		Type: Heavy
 	RevealsShroud:
 		Range: 6c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 5c0
 	Bib:
 		HasMinibib: Yes
 	Turreted:
@@ -513,6 +528,9 @@ DOME:
 		Type: Wood
 	RevealsShroud:
 		Range: 10c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 8c0
 	Bib:
 	ProvidesRadar:
 	InfiltrateForExploration:
@@ -543,6 +561,9 @@ PBOX:
 		Type: Heavy
 	RevealsShroud:
 		Range: 6c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 5c0
 	Bib:
 		HasMinibib: Yes
 	Turreted:
@@ -588,6 +609,9 @@ HBOX:
 		Type: Heavy
 	RevealsShroud:
 		Range: 6c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 5c0
 	Cloak:
 		InitialDelay: 125
 		CloakDelay: 60
@@ -634,6 +658,9 @@ GUN:
 		Type: Heavy
 	RevealsShroud:
 		Range: 7c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 5c0
 	Bib:
 		HasMinibib: Yes
 	Turreted:
@@ -672,6 +699,9 @@ FTUR:
 		Type: Heavy
 	RevealsShroud:
 		Range: 6c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 5c0
 	Bib:
 		HasMinibib: Yes
 	Turreted:
@@ -701,7 +731,7 @@ SAM:
 		Prerequisites: dome, ~structures.soviet, ~techlevel.medium
 		Description: Anti-Air base defense.\nRequires power to operate.\nCan detect cloaked units.\n  Strong vs Aircraft\n  Weak vs Ground units
 	Valued:
-		Cost: 750
+		Cost: 700
 	Tooltip:
 		Name: SAM Site
 	Building:
@@ -754,11 +784,14 @@ ATEK:
 		Footprint: xx xx
 		Dimensions: 2,2
 	Health:
-		HP: 400
+		HP: 600
 	Armor:
 		Type: Wood
 	RevealsShroud:
 		Range: 10c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Bib:
 	GpsPower:
 		Icon: gps
@@ -920,6 +953,9 @@ FACT:
 		Type: Wood
 	RevealsShroud:
 		Range: 5c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Bib:
 	Production:
 		Produces: Building,Defense
@@ -977,6 +1013,9 @@ PROC:
 		Type: Wood
 	RevealsShroud:
 		Range: 6c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Bib:
 	Refinery:
 		DockAngle: 64
@@ -1043,7 +1082,7 @@ HPAD:
 		Prerequisites: dome, ~structures.allies, ~techlevel.medium
 		Description: Produces and reloads\nhelicopters.
 	Valued:
-		Cost: 500
+		Cost: 600
 	Tooltip:
 		Name: Helipad
 	Building:
@@ -1055,6 +1094,9 @@ HPAD:
 		Type: Wood
 	RevealsShroud:
 		Range: 5c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Bib:
 	Exit@1:
 		SpawnOffset: 0,-256,0
@@ -1122,7 +1164,7 @@ AFLD:
 		Prerequisites: dome, ~structures.soviet, ~techlevel.medium
 		Description: Produces and reloads aircraft.\n  Special Ability: Paratroopers\n  Special Ability: Spy Plane
 	Valued:
-		Cost: 500
+		Cost: 600
 	Tooltip:
 		Name: Airfield
 	Building:
@@ -1134,6 +1176,9 @@ AFLD:
 		Type: Wood
 	RevealsShroud:
 		Range: 7c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Exit@1:
 		ExitCell: 1,1
 		Facing: 192
@@ -1170,7 +1215,7 @@ AFLD:
 		OrderName: SovietSpyPlane
 		Prerequisites: aircraft.soviet
 		Icon: spyplane
-		ChargeTime: 180
+		ChargeTime: 150
 		Description: Spy Plane
 		LongDesc: Reveals an area of the map\nand cloaked enemy units.
 		SelectTargetSpeechNotification: SelectTarget
@@ -1185,10 +1230,10 @@ AFLD:
 		OrderName: SovietParatroopers
 		Prerequisites: aircraft.soviet
 		Icon: paratroopers
-		ChargeTime: 360
+		ChargeTime: 300
 		Description: Paratroopers
 		LongDesc: A Badger drops a squad of infantry\nanywhere on the map.
-		DropItems: E1,E1,E1,E3,E3
+		DropItems: E1R1,E1R1,E1R1,E3R1,E3R1
 		SelectTargetSpeechNotification: SelectTarget
 		AllowImpassableCells: false
 		QuantizedFacings: 8
@@ -1199,7 +1244,7 @@ AFLD:
 		OrderName: UkraineParabombs
 		Prerequisites: aircraft.ukraine
 		Icon: parabombs
-		ChargeTime: 360
+		ChargeTime: 300
 		Description: Parabombs
 		LongDesc: A squad of Badgers drops parachuted\nbombs on your target.
 		SelectTargetSpeechNotification: SelectTarget
@@ -1340,18 +1385,21 @@ BARR:
 		Prerequisites: anypower, ~structures.soviet, ~techlevel.infonly
 		Description: Trains infantry.
 	Valued:
-		Cost: 400
+		Cost: 500
 	Tooltip:
 		Name: Soviet Barracks
 	Building:
 		Footprint: xx xx
 		Dimensions: 2,2
 	Health:
-		HP: 800
+		HP: 600
 	Armor:
 		Type: Wood
 	RevealsShroud:
 		Range: 5c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Bib:
 	RallyPoint:
 	Exit@1:
@@ -1460,18 +1508,21 @@ TENT:
 		Prerequisites: anypower, ~structures.allies, ~techlevel.infonly
 		Description: Trains infantry.
 	Valued:
-		Cost: 400
+		Cost: 500
 	Tooltip:
 		Name: Allied Barracks
 	Building:
 		Footprint: xx xx
 		Dimensions: 2,2
 	Health:
-		HP: 800
+		HP: 600
 	Armor:
 		Type: Wood
 	RevealsShroud:
 		Range: 5c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Bib:
 	RallyPoint:
 	Exit@1:
@@ -1556,6 +1607,9 @@ FIX:
 		Type: Wood
 	RevealsShroud:
 		Range: 5c0
+		RevealGeneratedShroud: False
+	RevealsShroud@GAPGEN:
+		Range: 4c0
 	Bib:
 		HasMinibib: Yes
 	Reservable:
@@ -1578,7 +1632,7 @@ SBAG:
 		Prerequisites: fact, ~structures.allies, ~techlevel.low
 		Description: Stops infantry and light vehicles.\nCan be crushed by tanks.
 	Valued:
-		Cost: 25
+		Cost: 50
 	CustomSellValue:
 		Value: 0
 	Tooltip:
@@ -1603,7 +1657,7 @@ FENC:
 		Prerequisites: fact, ~structures.soviet, ~techlevel.low
 		Description: Stops infantry and light vehicles.\nCan be crushed by tanks.
 	Valued:
-		Cost: 25
+		Cost: 50
 	CustomSellValue:
 		Value: 0
 	Tooltip:
@@ -1628,7 +1682,7 @@ BRIK:
 		Prerequisites: fact, ~techlevel.medium
 		Description: Stop units and blocks enemy fire.
 	Valued:
-		Cost: 100
+		Cost: 200
 	CustomSellValue:
 		Value: 0
 	Tooltip:
